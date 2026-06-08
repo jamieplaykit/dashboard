@@ -1,1 +1,7 @@
-{}
+{
+  "functions": {
+    "api/tasks.js": {
+      "maxDuration": 60
+    }
+  }
+}
