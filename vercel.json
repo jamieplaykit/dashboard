@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "functions": {
+    "api/tasks.js": {
+      "maxDuration": 60
+    }
+  },
+  "routes": [
+    { "src": "/api/tasks", "dest": "/api/tasks.js" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
